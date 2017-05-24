@@ -6,13 +6,13 @@
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "BubbleBomb-1.png"
+      "filename" : "cherrybomb-2400px.png",
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "BubbleBomb.png"
+      "filename" : "cherrybomb-2400px-1.png",
+      "scale" : "3x"
     }
   ],
   "info" : {

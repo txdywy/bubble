@@ -2,17 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "sea (1)-2.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "2x.png"
+      "filename" : "sea (1)-1.png",
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "Background.png"
+      "filename" : "sea (1).png",
+      "scale" : "3x"
     }
   ],
   "info" : {

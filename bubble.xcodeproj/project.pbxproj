@@ -516,6 +516,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/bubble/WXApi",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylab.bubble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -537,6 +538,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/bubble/WXApi",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylab.bubble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
