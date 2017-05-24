@@ -11,6 +11,8 @@
 #import "GlobalHolder.h"
 #import <SpriteKit/SpriteKit.h>
 #import "WXApi.h"
+@import UIKit;
+@import Firebase;
 
 @interface AppDelegate ()
 
@@ -22,6 +24,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     [[GlobalHolder sharedSingleton] recoverFromLocal];
+    /*
     [[GameCenterService sharedSingleton] authUserWithBlock:^(BOOL success, UIViewController *authViewController) {
         if (!success) {
         } else if (authViewController) {
@@ -29,6 +32,8 @@
         }
     }];
     [WXApi registerApp:@"wxa2d0305b5da17aa1"];
+     */
+    [FIRApp configure];
     return YES;
 }
 

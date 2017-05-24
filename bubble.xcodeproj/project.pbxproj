@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		389A9693ED9AE92ACDE1363D /* libPods-bubble.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A43A1EEFA8C585C73505EDB /* libPods-bubble.a */; };
 		3AA22F541ED56F2C000D4661 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3AA22F531ED56F2C000D4661 /* GoogleService-Info.plist */; };
 		5A1520D21A30076E00CBEB06 /* ResultScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1520D11A30076E00CBEB06 /* ResultScene.m */; };
 		5A1520D81A303EDF00CBEB06 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A1520D51A303EDF00CBEB06 /* libWeChatSDK.a */; };
@@ -32,6 +33,7 @@
 		5AFBD22E1A24300C00D52673 /* bubbleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBD22D1A24300C00D52673 /* bubbleTests.m */; };
 		5AFBD23D1A24332300D52673 /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBD23C1A24332300D52673 /* MenuScene.m */; };
 		5AFBD2491A2459D800D52673 /* BubbleNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBD2481A2459D800D52673 /* BubbleNode.m */; };
+		974D877863445CB6C3D13C46 /* libPods-bubbleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E09413AE2837CA2C7C0C1EB /* libPods-bubbleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1FFA650343825007B902A0E8 /* Pods-bubbleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bubbleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bubbleTests/Pods-bubbleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3AA22F531ED56F2C000D4661 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5A1520D01A30076E00CBEB06 /* ResultScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultScene.h; sourceTree = "<group>"; };
 		5A1520D11A30076E00CBEB06 /* ResultScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultScene.m; sourceTree = "<group>"; };
@@ -87,6 +90,11 @@
 		5AFBD23C1A24332300D52673 /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuScene.m; sourceTree = "<group>"; };
 		5AFBD2471A2459D800D52673 /* BubbleNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleNode.h; sourceTree = "<group>"; };
 		5AFBD2481A2459D800D52673 /* BubbleNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleNode.m; sourceTree = "<group>"; };
+		5E09413AE2837CA2C7C0C1EB /* libPods-bubbleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bubbleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6686DAB20D5F89A44EE92EA4 /* Pods-bubbleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bubbleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-bubbleTests/Pods-bubbleTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A43A1EEFA8C585C73505EDB /* libPods-bubble.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bubble.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1924F23704AF1002B91B452 /* Pods-bubble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bubble.release.xcconfig"; path = "Pods/Target Support Files/Pods-bubble/Pods-bubble.release.xcconfig"; sourceTree = "<group>"; };
+		D3B29A085FCC07947B7550F4 /* Pods-bubble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bubble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bubble/Pods-bubble.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 				5A1520DA1A304A1B00CBEB06 /* SystemConfiguration.framework in Frameworks */,
 				5A1520D81A303EDF00CBEB06 /* libWeChatSDK.a in Frameworks */,
 				5A6F1DCB1A28255F00E7EAD7 /* GameKit.framework in Frameworks */,
+				389A9693ED9AE92ACDE1363D /* libPods-bubble.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,12 +115,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				974D877863445CB6C3D13C46 /* libPods-bubbleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5035420180947C099FE1DD10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3B29A085FCC07947B7550F4 /* Pods-bubble.debug.xcconfig */,
+				A1924F23704AF1002B91B452 /* Pods-bubble.release.xcconfig */,
+				1FFA650343825007B902A0E8 /* Pods-bubbleTests.debug.xcconfig */,
+				6686DAB20D5F89A44EE92EA4 /* Pods-bubbleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		565A36533457AB201CFBE588 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A43A1EEFA8C585C73505EDB /* libPods-bubble.a */,
+				5E09413AE2837CA2C7C0C1EB /* libPods-bubbleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5A1520D31A303E4700CBEB06 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +200,8 @@
 				5AFBD20B1A24300C00D52673 /* bubble */,
 				5AFBD22A1A24300C00D52673 /* bubbleTests */,
 				5AFBD20A1A24300C00D52673 /* Products */,
+				5035420180947C099FE1DD10 /* Pods */,
+				565A36533457AB201CFBE588 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -271,9 +303,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AFBD2311A24300C00D52673 /* Build configuration list for PBXNativeTarget "bubble" */;
 			buildPhases = (
+				538C7509D26E251AD7327288 /* [CP] Check Pods Manifest.lock */,
 				5AFBD2051A24300C00D52673 /* Sources */,
 				5AFBD2061A24300C00D52673 /* Frameworks */,
 				5AFBD2071A24300C00D52673 /* Resources */,
+				8A90C60286A8B7FFB95E4A83 /* [CP] Embed Pods Frameworks */,
+				E088C23B5D7655ED1DF9EA7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -288,9 +323,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AFBD2341A24300C00D52673 /* Build configuration list for PBXNativeTarget "bubbleTests" */;
 			buildPhases = (
+				056E03F10E4AFA270549B001 /* [CP] Check Pods Manifest.lock */,
 				5AFBD2231A24300C00D52673 /* Sources */,
 				5AFBD2241A24300C00D52673 /* Frameworks */,
 				5AFBD2251A24300C00D52673 /* Resources */,
+				4AC085EB276AF99555BAF68E /* [CP] Embed Pods Frameworks */,
+				C8AD53BF68E33BA982A936BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -369,6 +407,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		056E03F10E4AFA270549B001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC085EB276AF99555BAF68E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bubbleTests/Pods-bubbleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		538C7509D26E251AD7327288 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A90C60286A8B7FFB95E4A83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bubble/Pods-bubble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8AD53BF68E33BA982A936BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bubbleTests/Pods-bubbleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E088C23B5D7655ED1DF9EA7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bubble/Pods-bubble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5AFBD2051A24300C00D52673 /* Sources */ = {
@@ -506,6 +637,7 @@
 		};
 		5AFBD2321A24300C00D52673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B29A085FCC07947B7550F4 /* Pods-bubble.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -528,6 +660,7 @@
 		};
 		5AFBD2331A24300C00D52673 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1924F23704AF1002B91B452 /* Pods-bubble.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -550,6 +683,7 @@
 		};
 		5AFBD2351A24300C00D52673 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFA650343825007B902A0E8 /* Pods-bubbleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = KGAQHR2VD8;
@@ -570,6 +704,7 @@
 		};
 		5AFBD2361A24300C00D52673 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6686DAB20D5F89A44EE92EA4 /* Pods-bubbleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = KGAQHR2VD8;
