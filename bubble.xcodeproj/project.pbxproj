@@ -227,6 +227,7 @@
 				5AFBD2101A24300C00D52673 /* AppDelegate.h */,
 				5AFBD2111A24300C00D52673 /* AppDelegate.m */,
 				5AFBD21B1A24300C00D52673 /* Main.storyboard */,
+				3AA22F531ED56F2C000D4661 /* GoogleService-Info.plist */,
 				5AFBD21E1A24300C00D52673 /* Images.xcassets */,
 				5AFBD2201A24300C00D52673 /* LaunchScreen.xib */,
 				5AFBD20C1A24300C00D52673 /* Supporting Files */,
@@ -238,7 +239,6 @@
 			isa = PBXGroup;
 			children = (
 				5AFBD20D1A24300C00D52673 /* Info.plist */,
-				3AA22F531ED56F2C000D4661 /* GoogleService-Info.plist */,
 				5AFBD20E1A24300C00D52673 /* main.m */,
 			);
 			name = "Supporting Files";
