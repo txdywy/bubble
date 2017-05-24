@@ -41,7 +41,7 @@
     SKSpriteNode *titleLogo = [SKSpriteNode spriteNodeWithImageNamed:@"TitleLogo"];
     titleLogo.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame) + 160);
     titleLogo.zPosition = 15;
-    titleLogo.size = CGSizeMake(242, 66);
+    titleLogo.size = CGSizeMake(242, 166);
     
     self.menuBackground = [SKSpriteNode spriteNodeWithImageNamed:@"MenuBackground"];
     self.menuBackground.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame) - 50);
@@ -49,7 +49,7 @@
     self.menuBackground.size = CGSizeMake(254, 298);
     
     SKLabelNode *boardTitleLabel = [SKLabelNode labelNodeWithFontNamed:@"STHeitiTC-Light"];
-    boardTitleLabel.text = @"最高分";
+    boardTitleLabel.text = @"Best";
     boardTitleLabel.fontColor = [SKColor colorWithRed:85 / 255.0f green:85 / 255.0f blue:85 / 255.0f alpha:1];
     boardTitleLabel.fontSize = 26;
     boardTitleLabel.position = CGPointMake(0, 80);
@@ -67,10 +67,11 @@
     self.scoreLabel.zPosition = 22;
     
     self.startButton = [SKSpriteNode spriteNodeWithImageNamed:@"ButtonStart"];
-    self.startButton.position = CGPointMake(0, -10);
+    self.startButton.position = CGPointMake(0, -30);
     self.startButton.zPosition = 23;
-    self.startButton.size = CGSizeMake(160, 50);
+    self.startButton.size = CGSizeMake(200, 150);
     
+    /*
     self.starButton = [SKSpriteNode spriteNodeWithImageNamed:@"ButtonStar"];
     self.starButton.position = CGPointMake(-60, -90);
     self.starButton.zPosition = 24;
@@ -85,6 +86,7 @@
     self.shareButton.position = CGPointMake(60, -90);
     self.shareButton.zPosition = 26;
     self.shareButton.size = CGSizeMake(20, 30);
+    */
     
     [self addChild:backgroundNode];
     [self addChild:titleLogo];
@@ -92,9 +94,10 @@
     [self.menuBackground addChild:boardTitleLabel];
     [self.menuBackground addChild:self.scoreLabel];
     [self.menuBackground addChild:self.startButton];
-    [self.menuBackground addChild:self.starButton];
-    [self.menuBackground addChild:self.leaderboardButton];
-    [self.menuBackground addChild:self.shareButton];
+    
+    //[self.menuBackground addChild:self.starButton];
+    //[self.menuBackground addChild:self.leaderboardButton];
+    //[self.menuBackground addChild:self.shareButton];
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
