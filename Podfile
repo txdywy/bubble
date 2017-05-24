@@ -7,6 +7,7 @@ target 'bubble' do
 
   # Pods for bubble
   pod 'Firebase/Core'
+  pod 'Firebase/AdMob'
 
   target 'bubbleTests' do
     inherit! :search_paths

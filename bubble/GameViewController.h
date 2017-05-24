@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <SpriteKit/SpriteKit.h>
+@import GoogleMobileAds;
 
 @interface GameViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet GADBannerView *adVView;
+
 
 @end

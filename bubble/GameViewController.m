@@ -26,6 +26,10 @@
     MenuScene *menuScene = [[MenuScene alloc] initWithSize:size];
     menuScene.scaleMode = SKSceneScaleModeAspectFill;
     [skView presentScene:menuScene];
+    
+    self.adVView.adUnitID = @"ca-app-pub-9974885785906256/8940589527";
+    self.adVView.rootViewController = self;
+    [self.adVView loadRequest:[GADRequest request]];
 }
 
 - (BOOL)shouldAutorotate
