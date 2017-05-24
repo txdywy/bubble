@@ -310,7 +310,7 @@
 				TargetAttributes = {
 					5AFBD2081A24300C00D52673 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = LMJACF6T63;
+						DevelopmentTeam = KGAQHR2VD8;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 1;
@@ -319,6 +319,7 @@
 					};
 					5AFBD2261A24300C00D52673 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = KGAQHR2VD8;
 						TestTargetID = 5AFBD2081A24300C00D52673;
 					};
 				};
@@ -506,6 +507,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KGAQHR2VD8;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = bubble/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -526,6 +528,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KGAQHR2VD8;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = bubble/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -543,6 +546,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KGAQHR2VD8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -562,6 +566,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KGAQHR2VD8;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
