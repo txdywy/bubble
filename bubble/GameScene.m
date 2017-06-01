@@ -14,6 +14,7 @@
 #import "GlobalHolder.h"
 #import "ResultScene.h"
 
+
 typedef NS_OPTIONS(NSInteger, NODE_CATEGORY) {
     NODE_CATEGORY_BUBBLE = 0,
     NODE_CATEGORY_BORDER,
@@ -150,6 +151,9 @@ static const NSInteger MAX_SPEED = 3;
 
 - (void)gameOver
 {
+    NSLog(@"----------------game over--------------");
+    [self.gvc showX];
+    NSLog(@"----------------game +++ over------------==-");
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         NSInteger score = self.scoreLabel.text.integerValue;
         if (score > [GlobalHolder sharedSingleton].bestScore) {
@@ -162,6 +166,7 @@ static const NSInteger MAX_SPEED = 3;
         
         CGSize size = [UIScreen mainScreen].bounds.size;
         ResultScene *resultScene = [[ResultScene alloc] initWithSize:size];
+        resultScene.gvc = self.gvc;
         resultScene.score = score;
         resultScene.scaleMode = SKSceneScaleModeAspectFill;
         dispatch_async(dispatch_get_main_queue(), ^{

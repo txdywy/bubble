@@ -13,6 +13,7 @@
 @interface GameViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet GADBannerView *adVView;
-
+@property (nonatomic, strong) GADInterstitial *interstitial;
+- (void)showX;
 
 @end

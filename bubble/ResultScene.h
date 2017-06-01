@@ -7,9 +7,11 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "GameViewController.h"
 
 @interface ResultScene : SKScene
 
 @property (nonatomic) NSInteger score;
+@property (assign, nonatomic) GameViewController *gvc;
 
 @end

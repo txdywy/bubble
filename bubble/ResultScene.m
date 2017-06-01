@@ -132,6 +132,7 @@
             [self playPopSoundWithBlock:^{
                 CGSize size = [UIScreen mainScreen].bounds.size;
                 GameScene *gameScene = [[GameScene alloc] initWithSize:size];
+                gameScene.gvc = self.gvc;
                 gameScene.scaleMode = SKSceneScaleModeAspectFill;
                 [self.scene.view presentScene:gameScene];
             }];
@@ -139,6 +140,7 @@
             [self playPopSoundWithBlock:^{
                 CGSize size = [UIScreen mainScreen].bounds.size;
                 MenuScene *menuScene = [[MenuScene alloc] initWithSize:size];
+                menuScene.gvc = self.gvc;
                 menuScene.scaleMode = SKSceneScaleModeAspectFill;
                 [self.scene.view presentScene:menuScene];
             }];
