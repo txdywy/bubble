@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>53572775471-9oh1mbegev93ltec7jc00auvjn05rm8g.apps.googleusercontent.com</string>
+	<string>413957078621-5tk5b9on2ul6l7qr7180jplmsguj7l82.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.53572775471-9oh1mbegev93ltec7jc00auvjn05rm8g</string>
+	<string>com.googleusercontent.apps.413957078621-5tk5b9on2ul6l7qr7180jplmsguj7l82</string>
 	<key>API_KEY</key>
-	<string>AIzaSyDCWmIK-qcph37UM9-DqdDe0Nqhr6thWSo</string>
+	<string>AIzaSyD2VYFkYpOC154gQ6jIZ3Op7tjxty28Qr4</string>
 	<key>GCM_SENDER_ID</key>
-	<string>53572775471</string>
+	<string>413957078621</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.ylab.bubble</string>
 	<key>PROJECT_ID</key>
-	<string>bubble-bang</string>
+	<string>bubble-cdfbd</string>
 	<key>STORAGE_BUCKET</key>
-	<string>bubble-bang.appspot.com</string>
+	<string>bubble-cdfbd.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true/>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true/>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:53572775471:ios:14fae5e46c9c2bf9</string>
+	<string>1:413957078621:ios:14fae5e46c9c2bf9</string>
 	<key>DATABASE_URL</key>
-	<string>https://bubble-bang.firebaseio.com</string>
+	<string>https://bubble-cdfbd.firebaseio.com</string>
 </dict>
 </plist>

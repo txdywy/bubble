@@ -27,7 +27,7 @@
     menuScene.scaleMode = SKSceneScaleModeAspectFill;
     [skView presentScene:menuScene];
     
-    self.adVView.adUnitID = @"ca-app-pub-9974885785906256/8940589527";
+    self.adVView.adUnitID = @"ca-app-pub-8217481143192443/2696887011";
     self.adVView.rootViewController = self;
     [self.adVView loadRequest:[GADRequest request]];
 }
