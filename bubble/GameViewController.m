@@ -14,6 +14,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.counter = 0;
+    self.ts = [[NSDate date] timeIntervalSince1970];
     self.interstitial = [self createAndLoadInterstitial];
     SKView *skView = (SKView *)self.view;
 //    if (DEBUG) {
@@ -49,6 +51,20 @@
 
 - (void)showX {
     NSLog(@"-------- showX");
+    self.counter++;
+    NSInteger ts0 = [[NSDate date] timeIntervalSince1970];
+    NSInteger tsCheck = ts0 - self.ts;
+    NSLog(@"---%ld", tsCheck);
+    NSLog(@"---%ld", self.counter);
+    self.ts = ts0;
+    if (self.counter % 10 == 0 || tsCheck > 60 * 5){
+        NSLog(@"--------- can showX");
+    }
+    else{
+        NSLog(@"--------- can not showX yet");
+        return;
+    }
+    
     if (self.interstitial.isReady) {
         [self.interstitial presentFromRootViewController:self];
         self.interstitial = [self createAndLoadInterstitial];
